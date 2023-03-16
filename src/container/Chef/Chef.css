@@ -1,0 +1,30 @@
+.app__wrapper_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__chef-content {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.app__chef-content p {
+  font-style: italic;
+  color: var(--color-grey);
+}
+
+.app__chef-sign {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.app__chef-sign p:first-child {
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+}
