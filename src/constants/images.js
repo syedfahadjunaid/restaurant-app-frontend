@@ -21,7 +21,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
-export default {
+const Images = {
   bg,
   chef,
   G,
@@ -45,3 +45,30 @@ export default {
   quote,
   gericht,
 };
+
+export default Images;
+
+// export default {
+//   bg,
+//   chef,
+//   G,
+//   gallery01,
+//   gallery02,
+//   gallery03,
+//   gallery04,
+//   knife,
+//   logo,
+//   menu,
+//   overlaybg,
+//   spoon,
+//   welcome,
+//   findus,
+//   laurels,
+//   award01,
+//   award02,
+//   award03,
+//   award05,
+//   sign,
+//   quote,
+//   gericht,
+// };
